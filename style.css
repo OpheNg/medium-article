@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;1,500&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@0,100;0,400;1,700&family=Space+Mono&family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Open+Sans:wght@300;400;500&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@0,100;0,400;1,700&family=Space+Mono&family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;500&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@0,100;0,400;1,700&family=Space+Mono&family=Work+Sans:wght@800&display=swap');
+
+body {
+  font-family: poppins;
+  background-color: rgb(252, 245, 232);
+}
+div {
+    background-color: white;
+    max-width: 700px;
+    border: 1px;
+    padding:24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+
+#sketch {
+  width: 100%;
+  text-align: center;
+ }
+
+@media (max-width: 700px) {
+  #sketch {
+      width: 100%;
+  }
+}
+
+#wagon {
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media (max-width: 700px) {
+    #wagon {
+        width: 100%;
+    }
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+@media (max-width: 100px) {
+      #wavatar {
+          width: 100%;
+      }
+}
+
+.list-inline li {
+    display: inline-block;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline a {
+    color: rgb(198, 196, 196);
+    padding: 6px;
+    font-size: 18px;
+}
+.list-inline a:hover {
+    color: black
+}
+
+#nav {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+#infos {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    /* align-items: flex-start; */
+}
+
+#social-media {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+}
+
+.card a {
+  font-family: roboto;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgb(174, 219, 206);
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: white;
+}
+
+.card a:hover {
+  background-color: white;
+  text-shadow: rgba(0 0 0 0.3);
+  color: rgb(174, 219, 206);
+  border: solid grey 1px;
+}
